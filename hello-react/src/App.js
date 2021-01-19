@@ -5,16 +5,10 @@ import MyComponent from './MyComponent';
 import Say from './Say';
 import ValidationSample from './ref/ValidationSample';
 import ScrollBox from './ref/ScrollBox';
+import IterationSample from './iteration/IterationSample';
 class App extends Component {
   render() {
-    return (
-      <div>
-        <ScrollBox ref={(ref) => (this.scrollBox = ref)} />
-        <button onClick={() => this.scrollBox.scrollToBottom()}>
-          맨 밑으로
-        </button>
-      </div>
-    );
+    return <IterationSample />;
   }
 }
 
