@@ -5,7 +5,7 @@ import Info from './Info';
 function App() {
   const [visible, setVisible] = useState(false);
 
-  return <CounterUseReducer />;
+  return <Info></Info>;
 }
 
 export default App;

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Counter from './Counter';
-import EventPractice from './EventPractice';
-import MyComponent from './MyComponent';
-import Say from './Say';
-import ValidationSample from './ref/ValidationSample';
-import ScrollBox from './ref/ScrollBox';
-import IterationSample from './iteration/IterationSample';
+// import Counter from './Counter';
+// import EventPractice from './EventPractice';
+// import MyComponent from './MyComponent';
+// import Say from './Say';
+// import ValidationSample from './ref/ValidationSample';
+// import ScrollBox from './ref/ScrollBox';
+// import IterationSample from './iteration/IterationSample';
 import LifeCycleSample from './lifeCycle/LifeCycleSample';
 import ErrorBoundary from './lifeCycle/ErrorBoundary';
 
